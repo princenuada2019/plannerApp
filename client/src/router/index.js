@@ -14,7 +14,7 @@ const routes = [
   {
     path: '',
     component: LandingPage,
-    name: 'landingPage'
+    name: 'LandingPage'
   },
   {
     path: '/dashboard',
@@ -22,18 +22,23 @@ const routes = [
     children: [
       {
         path: '',
-        component: FullWeek,
-        name: 'fullWeek'
+        component: Today,
+        name: 'Today'
       },
       {
         path: 'today',
         component: Today,
-        name: 'today'
+        name: 'Today '
+      },
+      {
+        path: 'fullweek',
+        component: FullWeek,
+        name: 'FullWeek'
       },
       {
         path: 'notes',
         component: Notes,
-        name: 'notes'
+        name: 'Notes'
       }
     ]
   },

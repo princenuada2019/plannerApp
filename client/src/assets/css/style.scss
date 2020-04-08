@@ -1,0 +1,102 @@
+// FONTS
+////////
+@font-face {
+    font-family: 'Vazir';
+    src: url('~@/assets/fonts/Vazir-FD.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Vazir-black';
+    src: url('~@/assets/fonts/Vazir-Black-FD.ttf');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Vazir-bold';
+    src: url('~@/assets/fonts/Vazir-Bold-FD.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Vazir-medium';
+    src: url('~@/assets/fonts/Vazir-Medium-FD.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Vazir-light';
+    src: url('~@/assets/fonts/Vazir-Light-FD.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+//TYPOGRAPHY
+////////////
+
+h1.big {
+    font-family: 'Vazir-bold';
+    font-size: 35px !important;
+    color: #000 !important;
+}
+
+h1 {
+    font-family: 'Vazir-bold';
+    font-size: 18px !important;
+    color: #000 !important;
+}
+
+h2 {
+    font-family: 'Vazir-bold';
+    font-size: 14px !important;
+    color: #000 !important;
+}
+
+.v-btn__content, .v-list-item {
+    font-family: 'Vazir-medium' !important;
+    font-size: 12px;
+    letter-spacing: 0;
+    padding: 0 5px;
+}
+
+p {
+    font-family: 'Vazir';
+    font-size: 13px !important;
+    line-height: 22px !important;
+}
+
+//MEDAI QUERES
+//////////////
+@media (max-width: 600px) {
+    h1.big {
+        font-family: 'Vazir-bold';
+        font-size: 22px !important;
+        color: #000 !important;
+    }
+    
+    h1 {
+        font-family: 'Vazir-bold';
+        font-size: 16px !important;
+        color: #000 !important;
+    }
+    
+    h2 {
+        font-family: 'Vazir-bold';
+        font-size: 12px !important;
+        color: #000 !important;
+    }
+    
+    .v-btn__content {
+        font-family: 'Vazir-medium' !important;
+        font-size: 12px;
+        letter-spacing: 0;
+        padding: 0 5px;
+    }
+    
+    p {
+        font-family: 'Vazir';
+        font-size: 13px !important;
+    }
+}
+
+//COLORS ARE DEFIND IN VUETIFY THEME
